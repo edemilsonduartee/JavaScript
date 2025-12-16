@@ -17,7 +17,7 @@ const pi = 3.14; // constante de bloco
 console.log("Nome:", nome);// exibindo valores no console
 console.log("Idade:", idade);//
 console.log("Valor de pi:", pi);// exibindo valores no console
-console.log("Olá, mundo!");// exibindo uma mensagem no console
+console.log("Deu certo!");// exibindo uma mensagem no console
 idade = 26; // alterando o valor da variável 'idade'
 console.log("Idade atualizada:", idade);
  

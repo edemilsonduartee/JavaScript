@@ -1,1 +1,4 @@
-console.log("Olá, mundo!");
+
+    const message = "Olá, mundo!";
+    console.log(message);
+    
