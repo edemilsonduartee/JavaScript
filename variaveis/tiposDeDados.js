@@ -89,7 +89,7 @@ console.log(user.name) // exibindo o valor de 'address', que é undefined
   console.log(myArray[2]) // acessando o terceiro elemento do array, que é "laranja"
 */
 
-//outros tipos de dados if e else
+//outros tipos de dados if e else, comparadoes 
 /*
     - if e else são estruturas de controle de fluxo usadas para tomar decisões com base em condições
     - if executa um bloco de código se uma condição for verdadeira
@@ -110,7 +110,8 @@ console.log(user.name) // exibindo o valor de 'address', que é undefined
 
 */
 
-/*exemplo de if e else
+//exemplo de if e else
+/*
 const age = 20
 
 if (age >= 18) {
@@ -119,7 +120,7 @@ if (age >= 18) {
     console.log("Você é menor de idade.")
 }
 
-*/
+
 // exemplo de if, else if e else
 const score = 59    
 if (score >= 90) {
@@ -131,3 +132,26 @@ if (score >= 90) {
 } else {
     console.log("Nota F, louser!")
 }
+*/
+
+//outrod tipos de dados functions
+/*
+    - funções são blocos de código reutilizáveis que executam uma tarefa específica
+    - funções podem receber parâmetros de entrada e retornar valores de saída
+    - funções ajudam a organizar o código e torná-lo mais modular e legível 
+    - declaração de função
+    - expressão de função
+    - arrow function        
+*/
+
+//exemplo de declaração de função
+/*
+function greet(name) {
+    return `Olá, ${name}!`
+}
+console.log(greet("Edemilson")) // chamando a função greet com o argumento "Edemilson"
+*/
+function nomeNaTela() {
+    console.log("Edemilson");
+}
+nomeNaTela(); // chamando a função nomeNaTela para exibir o nome no console
