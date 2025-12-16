@@ -80,9 +80,54 @@ console.log(user.name) // exibindo o valor de 'address', que é undefined
   - array é uma coleção de valores, que podem ser de qualquer tipo de dado, organizados em uma lista ordenada
   - arrays são usados para armazenar múltiplos valores em uma única variável
   - arrays podem conter valores de diferentes tipos de dados, incluindo outros arrays e objetos
-    */
+  */
+/*
   const myArray = [ "maçã", "banana", "laranja"] // array de strings
 
   console.log(myArray[0]) // acessando o primeiro elemento do array, que é "maçã"
   console.log(myArray[1]) // acessando o segundo elemento do array, que é "banana"
   console.log(myArray[2]) // acessando o terceiro elemento do array, que é "laranja"
+*/
+
+//outros tipos de dados if e else
+/*
+    - if e else são estruturas de controle de fluxo usadas para tomar decisões com base em condições
+    - if executa um bloco de código se uma condição for verdadeira
+    - else executa um bloco de código alternativo se a condição for falsa
+
+
+    -if (se) -> Faça isso
+    -else (senão) -> Faça aquilo
+
+    operadores de comparação:
+    > maior que
+    < menor que
+    >= maior ou igual a
+    <= menor ou igual a
+    == igual a
+    != diferente de
+    === igual a (comparação estrita)
+
+*/
+
+/*exemplo de if e else
+const age = 20
+
+if (age >= 18) {
+    console.log("Você é maior de idade.")
+} else {
+    console.log("Você é menor de idade.")
+}
+
+*/
+// exemplo de if, else if e else
+const score = 59    
+if (score >= 90) {
+    console.log("Nota A, Meus parabéns!")
+} else if (score >= 80) {
+    console.log("Nota B")
+} else if (score >= 70) {
+    console.log("Nota C")
+} else {
+    console.log("Nota F, louser!")
+}
