@@ -39,7 +39,7 @@ const isMinor = myAge < 18 // false, porque 30 não é menor que 18
 console.log("É adulto?", isAdult)
 console.log("É menor de idade?", isMinor)
 */
-
+/* 
 //outro tipo de dados object e array
 const name = "Edemilson"
 const age = 25
@@ -53,8 +53,36 @@ const edemilson = {
 }
 
 console.log(edemilson.anddress) // acessando a propriedade 'anddress' do objeto 'edemilson'
+*/
 
+/*
 // outros tipos de dados Null e Undefined
 
 let emptyValue = null // null, representa a ausência de valor
 let notDefined // undefined, variável declarada mas não inicializada    
+
+
+const user = {
+    name: "Maria",
+    idade: 26,
+    nomeDoConjuge: null, // nome do cônjuge é desconhecido
+    id: null, // id ainda não foi atribuído
+    address: undefined, // endereço ainda não foi definido
+}
+
+console.log(user.id) // exibindo o valor de 'id', que é null
+console.log(user.name) // exibindo o valor de 'address', que é undefined
+
+*/
+
+//outro tipos de dados Array
+    /*
+  - array é uma coleção de valores, que podem ser de qualquer tipo de dado, organizados em uma lista ordenada
+  - arrays são usados para armazenar múltiplos valores em uma única variável
+  - arrays podem conter valores de diferentes tipos de dados, incluindo outros arrays e objetos
+    */
+  const myArray = [ "maçã", "banana", "laranja"] // array de strings
+
+  console.log(myArray[0]) // acessando o primeiro elemento do array, que é "maçã"
+  console.log(myArray[1]) // acessando o segundo elemento do array, que é "banana"
+  console.log(myArray[2]) // acessando o terceiro elemento do array, que é "laranja"
