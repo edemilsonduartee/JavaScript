@@ -142,16 +142,17 @@ if (score >= 90) {
     - declaração de função
     - expressão de função
     - arrow function        
-*/
+
 
 //exemplo de declaração de função
-/*
+
 function greet(name) {
     return `Olá, ${name}!`
 }
 console.log(greet("Edemilson")) // chamando a função greet com o argumento "Edemilson"
-*/
+
 function nomeNaTela() {
     console.log("Edemilson");
 }
 nomeNaTela(); // chamando a função nomeNaTela para exibir o nome no console
+*/
