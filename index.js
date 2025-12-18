@@ -1,5 +1,5 @@
-const input = document.getElementById("main-input"); 
-console.log(input) // exibindo o elemento de input no console
+//const input = document.getElementById("main-input"); 
+//console.log(input) // exibindo o elemento de input no console
 
 //const elements = document.getElementsByClassName("paragraph-js"); 
 //console.log(elements) // exibindo os elementos com a classe "paragraph-js" no console
@@ -28,6 +28,16 @@ console.log(input) // exibindo o elemento de input no console
  */
 //__________________________________________________________________________
 
-const button = document.querySelector("h1");
+//const button = document.querySelector("h1");
 
-button.style.color = "blue";  // alterando a cor do texto do título para azul
+//button.style.color = "blue";  // alterando a cor do texto do título para azul
+function cliqueiNoBotao() {
+  const texto = document.getElementById("main-input").value;
+  const paragrafo = document.getElementById("paragrafoNovo");
+
+  if (texto !== "") {
+    paragrafo.textContent = texto;
+  } else {
+    alert("Digite algum texto no input");
+  }
+}
